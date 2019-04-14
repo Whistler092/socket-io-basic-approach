@@ -1,21 +1,19 @@
-## basic approach of node.js + socket.io + react.js
+## Basic approach of node.js + socket.io + react.js
 
-### Start
+### Installation
 
-``
-cd socket-io-server
+Requires [Node.js](https://nodejs.org/) v10+ to run.
 
-npm i
+Install the dependencies and devDependencies and start the server.
 
-node app.js
+```sh
+$ cd socket-io-server
+$ npm install -d
+$ node app.js
+```
 
-``
-
-``
-cd socket-io-client
-
-npm i
-
-npm start
-
-``
+```sh
+$ cd socket-io-client
+$ npm install -d
+$ npm start
+```
